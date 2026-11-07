@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: orienteering
+  thymeleaf:
+    cache: false
+
+server:
+  port: 8090
+
