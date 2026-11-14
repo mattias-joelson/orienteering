@@ -14,10 +14,10 @@ import java.util.List;
 public class WinsplitController {
 
     @Autowired
-    WinsplitEventsService indexService;
+    WinsplitEventsService eventsService;
 
     @GetMapping(path = "/events")
     public List<EventDTO> getEvents() {
-        return indexService.getIndex();
+        return eventsService.getEvents();
     }
 }

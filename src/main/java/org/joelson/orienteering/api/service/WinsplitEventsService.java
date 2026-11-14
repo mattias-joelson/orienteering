@@ -23,7 +23,7 @@ public class WinsplitEventsService {
     @Value("${winsplit.events.url}")
     String eventsUrl;
 
-    public List<EventDTO> getIndex() {
+    public List<EventDTO> getEvents() {
         List<EventDTO> competitions = new ArrayList<>();
         Document document;
         try {
