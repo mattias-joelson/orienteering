@@ -7,3 +7,8 @@ spring:
 server:
   port: 8090
 
+winsplit:
+  index:
+    url: https://obasen.orientering.se/winsplits/online/sv/default.asp
+  events:
+    url: https://obasen.orientering.se/winsplits/online/sv/events.asp
